@@ -1,0 +1,148 @@
+/* root */
+body {
+    margin: 0;
+}
+@font-face {
+	font-family: 'mont';
+	src: url(../../assets/font/mont.ttf);
+}
+@font-face {
+	font-family: 'raleway';
+	src: url(../../assets/font/raleway.ttf);
+}
+
+/* section nav */
+nav {
+    padding :30px 60px;
+    box-shadow: 0 5px 10px 0 rgb(0 64 128 / 5%);
+}
+nav > li {
+    margin: 0px 10px;
+    display: inline;
+}
+.navbar-brand > a {
+    font-size: 22px !important;
+    margin-right: 30px;
+    color: #221e41;
+    font-family: mont;
+}
+
+nav > li >a {
+    color: #8d97ad;
+    text-decoration: none;
+    font-family: arial;
+    font-family: raleway;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+}
+nav > li >a:hover, nav > li >a:focus , nav > li >a:active {
+    color: #7868e6;
+    transition: all 0.3s ease-in-out;
+} 
+
+/* section profile */
+.backup-section-profile {
+    margin-top: 125px !important;
+    padding-bottom: 7rem;
+}
+.img-profile {
+    border: 1.5px solid #ddd;
+    border-radius: 100%;
+    filter: grayscale(100%);
+    width: 200px;
+}
+.profile-name {
+    font-family: raleway;
+    color: #8d97ad;
+    padding-top: 20px  !important;
+    letter-spacing: 0.8px;
+}
+.job-desc {
+    font-size: 30px;
+    color:#221e41;
+    font-family: mont;
+    letter-spacing: 1.4px;
+}
+
+/* section overview */
+.backup-section-overview {
+    background-color: #fafafa;
+    border-top-left-radius: 100px;
+    padding: 30px;
+}
+.sub-backup-section-overview {
+    padding: 0px 144px;
+    margin-top: 75px;
+}
+.overview-text {
+    color: #8d97ad;
+    font-size: 15.5px;
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: 'raleway';
+    letter-spacing: 0.6px;
+    line-height: 2.5;
+}   
+.overview-text > a {
+    color: #7868e6;
+    text-decoration: none;
+}
+
+/* section skill dan pengalaman */
+table {
+    margin-top: 60px;
+    font-family: raleway;
+}
+table > thead > tr >td{
+    font-family: mont;
+    color:#221e41;
+    font-size: 23px;
+    padding: 20px 80px;
+}
+table > tbody > tr > td  > li {
+    color: #8697ad;
+    line-height: 2;
+    padding:0px 80px;
+}
+footer > p {
+   padding-top: 120px;
+   font-family: mont;
+   color:#221e41;
+   font-size: 14.5px;
+}
+
+
+/* halaman contact */
+.backup-page-contact {
+    padding: 10px 65px;
+    margin-top: 60px;
+}
+.backup-page-contact > label {
+    color: #221e41;
+    font-family: raleway;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 16.5px;
+}
+.backup-page-contact > input , .backup-page-contact > input:focus , .backup-page-contact > input:active , 
+.backup-page-contact > textarea {
+    border: 1.2px solid #ddd;
+    padding: 12px;
+    color: #8d97ad;
+    outline: none;
+    width: 25%;
+    font-family: 'raleway';
+    margin-top: 15px;
+    font-weight: bold;
+    resize: none;
+}
+
+.responsive-iframe {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 800px;
+    border: none;
+  }
